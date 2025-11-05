@@ -7,21 +7,36 @@
     <link rel="stylesheet" href="styles.css" />
     <title>PIXL</title>
   </head>
-  <body class="bg-pixl-dark text-pixl-light h-dvh w-full overflow-clip relative">
+   <body class="bg-pixl-dark text-pixl-light h-dvh w-full overflow-clip relative">
     <div class="absolute inset-0 overflow-clip">
       <img
         src="/images/Official-Login-BG.png"
         alt=""
-        class="absolute inset-y-0 left-[15%] h-full w-full object-cover mask-l-from-80% opacity-30"
+           class="absolute inset-y-0 left-[15%] h-full w-full object-cover mask-l-from-80% opacity-30 " 
       />
     </div>
     <footer class="fixed bottom-0 inset-x-0 pb-3">
       <div class="flex flex-col gap-1.5 items-center text-pixl p-4">
         <p>  Pixl  </p>
-        <p class="opacity-50 text-xs">xxx</p>
+   
+      <div class="flex gap-2 p-2 ">
+      <div class="size-8 bg-pixel "></div>
+        <div class="size-8 bg-pixel-light "></div>
+        <div class="size-8 bg-pixel-dark "></div>
+      </div>  
+        <div>
+        <p class="font-pixel text-xl">Blah blah this is monospace default font</p>
       </div>
-      <!-- White noise -->
+      </div>
+ 
       <div class="absolute bottom-0 h-4 inset-x-0 bg-[url(/images/white-noise.gif)]"></div>
     </footer>
+    <!-- <body class="bg-white text-black">
+      <h1 class="font-pixel">Pixl</h1>
+
+  
+        
+      
+     </body> -->
   </body>
 </html>
